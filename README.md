@@ -89,7 +89,7 @@ to
 ```
 and the text will work just fine.
 ### Patching and repacking the VPK
-Save and close your edited text file. Copy your `r1_english` file and paste it to your `Packing Environment` folder. Replace the file in the destination.
+Save and close your edited text file. Copy your `r1_english` file and paste it to your `Packing Environment` folder. Replace the files in the destination.
 
 Open up the Titanfall 2 VPK Tool and click Repack VPK.
 
@@ -114,12 +114,12 @@ If you want to edit more text in the future, you can simply:
 Now if this edit does not work, you can fall back with your original edited packed files if you decide to give up :)
 
 ### Patching the game
-Copy `client_frontend.bsp.pak000_000` and `englishclient_frontend.bsp.pak000_dir` and paste it in your `\Titanfall2\vpk` folder. Overwrite the previous files.
+Copy `client_frontend.bsp.pak000_000` and `englishclient_frontend.bsp.pak000_dir` and paste it in your `\Titanfall2\vpk` folder. Replace the files in the destination.
 
 Launch the game. It is normal for the game to stop responding momentarily while launching after a text edit for the first time.
 ### Troubleshooting
 - If the game crashes on launch, crashes while loading into multiplayer, crashes when starting a match, displays an error, or stops responding indefenitely:
-  - The VPK tool unpacked/packed the file incorrectly or an error was made when properly packing/unpacking the VPK. I used to have this problem a lot but I don't have it anymore. Be sure you're unpacking the entire VPK and not just the `resources` folder where the `r1_english` file is.
+  - The VPK tool unpacked/packed the file incorrectly or an error was made when selecting files/folder to unpack/pack. I used to have this problem a lot but I don't have it anymore. Be sure you're unpacking the entire VPK and not just the `resources` folder where the `r1_english` file is.
 - If the game displays debug text such as `NPC_TITAN_AUTO_STRYDER_SNIPER` or other debug text:
   - The formatting of the `r1_english` file is broken. You do not have to scrap the entire file and re-edit your file. You can use `CTRL + F` to search the debug text you see in game and look from that entry up to find where a missing quotation mark is breaking the formatting.
 ### Removing the modification
