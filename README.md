@@ -108,7 +108,7 @@ Copy both these files and paste them to your `Working Packed Files backup` if yo
 If you want to edit more text in the future, you can simply:
 - Purge the `Packed Files` folder
 - Re-edit `r1_english` in the `Edited Files` folder
-- Copy said `r1_english` folder to your `Packing Environment` folder and overwrite existing files
+- Copy said `r1_english` file to your `Packing Environment` folder and overwrite existing files
 - Repack and rename packed files.
 
 Now if this edit does not work, you can fall back with your original edited packed files if you decide to give up :)
